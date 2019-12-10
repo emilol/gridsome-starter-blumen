@@ -10,15 +10,21 @@
       <article class="max-w-xl md:max-w-2xl xl:max-w-3xl mx-auto px-6 sm:px-12 pt-16 border-b border-gray-300 pb-10 mb-16">
         <div class="markdown text-lg leading-normal text-gray-700" v-html="$page.page.content" />
       </article>
+
+      <site-footer class="pb-8 sm:pb-10" />
     </main>
   </Layout>
 </template>
 
 <script>
 import SiteMetadata from '@/mixins/SiteMetadata'
+import SiteFooter from '@/components/Footer'
 
 export default {
   mixins: [SiteMetadata],
+  components: {
+    SiteFooter,
+  },
   metaInfo () {
     return {
       title: this.$page.page.meta_title,

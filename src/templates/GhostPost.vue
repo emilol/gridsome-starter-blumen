@@ -33,6 +33,7 @@
         </footer>
       </article>
 
+      <site-footer class="pb-8 sm:pb-10" />
     </main>
   </Layout>
 </template>
@@ -47,6 +48,7 @@ import PostHeader from '@/components/PostHeader'
 import AuthorImage from '@/components/AuthorImage'
 import Comments from '@/components/Comments'
 import slugify from '@sindresorhus/slugify'
+import SiteFooter from '@/components/Footer'
 import Prism from 'prismjs';
 import 'prismjs/plugins/line-highlight/prism-line-highlight';
 import 'prismjs/components/prism-csharp';
@@ -59,6 +61,7 @@ export default {
   components: {
     Alert,
     PostHeader,
+    SiteFooter,
     Socials,
     AuthorImage,
     Comments

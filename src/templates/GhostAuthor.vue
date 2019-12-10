@@ -14,6 +14,7 @@
         <post-item v-for="edge in $page.author.belongsTo.edges" :key="edge.node.id" :post="edge.node" />
       </section>
       <pagination :base="`author/${$page.author.slug}`" :info="$page.author.belongsTo.pageInfo" v-if="$page.author.belongsTo.pageInfo.totalPages > 1" />
+      <site-footer class="pb-8 sm:pb-10" />
     </main>
   </Layout>
 </template>
@@ -22,6 +23,7 @@
 import moment from 'moment'
 import SiteMetadata from '@/mixins/SiteMetadata'
 import PostItem from '@/components/PostItem'
+import SiteFooter from '@/components/Footer'
 import Pagination from '@/components/Pagination'
 import AuthorImage from '@/components/AuthorImage'
 
@@ -30,6 +32,7 @@ export default {
   components: {
     PostItem,
     Pagination,
+    SiteFooter,
     AuthorImage
   },
   metaInfo () {

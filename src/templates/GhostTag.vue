@@ -12,6 +12,7 @@
       </header>
       <section>
         <post-item v-for="edge in $page.tag.belongsTo.edges" :key="edge.node.id" :post="edge.node" />
+        <site-footer class="py-8 sm:py-16" />
       </section>
     </main>
   </Layout>
@@ -21,6 +22,7 @@
 import moment from 'moment'
 import SiteMetadata from '@/mixins/SiteMetadata'
 import PostItem from '@/components/PostItem'
+import SiteFooter from '@/components/Footer'
 import Pagination from '@/components/Pagination'
 
 export default {
@@ -28,6 +30,7 @@ export default {
   components: {
     PostItem,
     Pagination,
+    SiteFooter,
   },
   metaInfo () {
     return {

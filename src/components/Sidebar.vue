@@ -23,7 +23,7 @@
 <script>
 import Menu from './Menu'
 import Socials from './Socials'
-import socialsConfig from '../../.socials.json';
+import socialsConfig from '../../.socials.json'
 import SiteMetadata from '@/mixins/SiteMetadata'
 
 export default {
