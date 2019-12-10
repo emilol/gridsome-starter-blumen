@@ -19,7 +19,7 @@ module.exports = function (api) {
   })
 
   api.loadSource(async store => {
-    store.addMetadata('disqusShortName', 'emil0l')
+    store.addMetadata('disqusShortName', '')
   })
 
   api.createSchema(async ({ addSchemaTypes }) => {

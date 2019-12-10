@@ -1,5 +1,5 @@
 <template>
-  <div class="comments w-full mt-8">
+  <div class="comments w-full mt-8" v-if="shortname">
     <vue-disqus :shortname="shortname"></vue-disqus>
   </div>
 </template>
