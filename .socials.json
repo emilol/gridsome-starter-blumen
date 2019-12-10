@@ -1,0 +1,23 @@
+{
+  "site": {
+    "facebook": null,
+    "twitter": null,
+    "github": "https://github.com/emilol/gridsome-starter-blumen",
+    "linkedin": "https://linkedin.com/",
+    "coffee": "https://buymeacoffee.com",
+    "meetup": null,
+    "website": null,
+    "email": null,
+    "rss": "https://feedly.com/i/subscription/feed/https://gridsome-starter-blumen.netlify.com/rss/"
+  },
+  "ghost": {
+    "facebook": null,
+    "twitter": null,
+    "github": "https://github.com/tryghost"
+  },
+  "blumen": {
+    "facebook": null,
+    "twitter": null,
+    "github": "https://github.com/emilol/gridsome-starter-blumen"
+  }
+}

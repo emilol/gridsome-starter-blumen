@@ -1,0 +1,12 @@
+{
+  "development": {
+    "baseUrl": "http://localhost:2368",
+    "contentKey": "a9169ba1bd0eede3a4bd8a469c",
+    "version": "v2"
+  },
+  "production": {
+    "baseUrl": "https://blumen.localtunnel.me",
+    "contentKey": "a9169ba1bd0eede3a4bd8a469c",
+    "version": "v2"
+  }
+}
