@@ -6,7 +6,7 @@
           <time :datetime="post.date" class="text-gray-700 text-xs mb-2 uppercase">{{ formatPublishDate(post.date) }}</time>
           <span v-if="post.tags && post.tags.length > 0"> · </span>
           <span v-if="post.tags && post.tags.length > 0">
-            <g-link :to="`tag/${post.tags[0].slug}/`" style="color:#5d93ff" class="text-gray-700 text-xs border-b border-transparent hover:border-gray-400 transition-border-color uppercase">{{ post.tags[0].title }}</g-link>
+            <g-link :to="`tag/${post.tags[0].slug}/`" style="color:#6a5eff" class="text-gray-700 text-xs border-b border-transparent hover:border-gray-400 transition-border-color uppercase">{{ post.tags[0].title }}</g-link>
           </span>
           <h2 class="text-3xl sm:text-4xl leading-tight font-sans mb-1 sm:mb-2">
             <g-link :to="`${post.slug}`" class="text-black font-bold">{{ post.title }}</g-link>

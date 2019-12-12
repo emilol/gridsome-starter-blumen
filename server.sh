@@ -9,4 +9,4 @@ config="su-exec node ghost config storage.cloudinary-store.cloud_name '$CLOUDINA
     node current/index.js";
 
 lt --port 3001 --subdomain gridsome-starter-blumen &
-docker run --name blumen -p 3001:2368 -e url=https://gridsome-starter-blumen.localtunnel.me -v "$volume" emilol/docker-ghost-cloudinary bash -c "$config"
+docker run --name blumen -p 3001:2368 -v "$volume" emilol/docker-ghost-cloudinary bash -c "$config"

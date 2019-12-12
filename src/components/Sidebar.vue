@@ -3,7 +3,7 @@
     <div class="sm:h-screen">
       <div class="w-full pb-20 sm:h-full sm:max-w-sm mx-auto px-10 border-r border-gray-300">
         <g-link to="/">
-          <img width="75" height="75" class="rounded-full mx-0" :src="ghost.icon || ghost.logo" />
+          <img width="75" height="75" class="rounded-full mx-0" :alt="ghost.title" :src="ghost.icon || ghost.logo" />
         </g-link>
         <h1 class="text-2xl sm:text-md font-sans font-bold pt-4">
           <g-link to="/" class="text-black">{{ghost.title}}</g-link>
