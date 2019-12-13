@@ -5,7 +5,7 @@
     "version": "v2"
   },
   "production": {
-    "baseUrl": "https://gridsome-starter-blumen.localtunnel.me",
+    "baseUrl": "https://blumen.azurewebsites.net",
     "contentKey": "a9169ba1bd0eede3a4bd8a469c",
     "version": "v2"
   }
