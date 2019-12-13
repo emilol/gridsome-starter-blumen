@@ -1,5 +1,9 @@
 {
-  "name": "my-website",
+  "name": "gridsome-starter-blumen",
+  "author": {
+    "name": "Emily Taylor",
+    "url": "https://github.com/emilol/gridsome-starter-blumen"
+  },
   "private": true,
   "scripts": {
     "build": "gridsome build",
