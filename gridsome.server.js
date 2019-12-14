@@ -5,7 +5,6 @@
 // Changes here requires a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 const GhostSettings = require('./plugins/ghost-settings');
-const schemaTypes = require('./ghost-schema');
 
 module.exports = function (api) {
   api.loadSource(({ addCollection }) => {
@@ -20,20 +19,6 @@ module.exports = function (api) {
 
   api.loadSource(async store => {
     store.addMetadata('disqusShortName', '')
-  })
-
-  api.createSchema(async ({ addSchemaTypes }) => {
-    typeNames = {
-      author: 'GhostAuthor',
-      post: 'GhostPost',
-      page: 'GhostPage',
-      tag: 'GhostTag'
-    }
-
-    addSchemaTypes(schemaTypes.GhostAuthor(typeNames))
-    addSchemaTypes(schemaTypes.GhostTag(typeNames))
-    addSchemaTypes(schemaTypes.GhostPost(typeNames))
-    addSchemaTypes(schemaTypes.GhostPage(typeNames))
   })
 
   var settings = new GhostSettings(api);

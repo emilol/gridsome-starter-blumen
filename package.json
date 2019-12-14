@@ -16,7 +16,7 @@
     "@gridsome/plugin-google-analytics": "^0.1.0",
     "@gridsome/plugin-sitemap": "^0.2.2",
     "@gridsome/source-filesystem": "^0.6.2",
-    "@gridsome/source-ghost": "^0.2.0",
+    "@gridsome/source-ghost": "^0.3.0",
     "@tryghost/content-api": "^1.3.2",
     "@tryghost/helpers": "^1.1.16",
     "camelcase": "^5.3.1",

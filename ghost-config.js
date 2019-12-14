@@ -19,15 +19,7 @@ function config() {
       }
   }
 
-  return {
-    baseUrl: '',
-    contentKey: '',
-    version: 'v2',
-    perPage: 100,
-    typeName: 'Ghost',
-    url: ghostConfig.baseUrl,
-    ...ghostConfig
-  };
+  return ghostConfig;
 }
 
 module.exports = config

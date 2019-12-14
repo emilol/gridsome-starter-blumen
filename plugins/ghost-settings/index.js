@@ -1,6 +1,6 @@
 const GhostContentAPI = require('@tryghost/content-api');
 const getConfig = require('../../ghost-config');
-const schema = require('../../ghost-schema');
+const schema = require('./ghost-schema');
 
 class GhostSettings {
   constructor (api, options) {
