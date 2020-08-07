@@ -25,7 +25,7 @@
     "gridsome-plugin-rss": "^1.2.0",
     "medium-zoom": "^1.0.4",
     "prism": "^4.1.2",
-    "prismjs": "^1.17.1",
+    "prismjs": "^1.21.0",
     "vue-disqus": "^3.0.5",
     "vue-parallaxy": "^1.1.1",
     "vue-svg-loader": "^0.12.0"
